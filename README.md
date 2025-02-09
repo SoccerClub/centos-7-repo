@@ -26,14 +26,9 @@ git clone https://github.com/tkne/centos-7-repo.git yum.repos.d
 
 Clean the local cache:
 ```bash
-yum clean all
-```
-
-</br>
-
-Update the installed packages on your system:
-```bash
-yum update
+sudo yum clean all
+sudo yum makecache
+sudo yum update
 ```
 
 </br>
